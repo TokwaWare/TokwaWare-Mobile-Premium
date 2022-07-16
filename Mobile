@@ -347,7 +347,7 @@ end)
 
 local Tab = Window:NewTab("Misc")
 local Section = Tab:NewSection("Misc")
-Section:NewButton("Fly - X", "", function()
+Section:NewButton("Fly - V", "", function()
     local plr = game.Players.LocalPlayer
 		local mouse = plr:GetMouse()
 	
@@ -785,7 +785,7 @@ end)
 
 local Tab = Window:NewTab("UI Settings")
 local Section = Tab:NewSection("UI Settings")
-Section:NewKeybind("UI Keybind", "", Enum.KeyCode.V, function()
+Section:NewKeybind("UI Keybind", "", Enum.KeyCode.Z, function()
 	Library:ToggleUI()
 end)
 
